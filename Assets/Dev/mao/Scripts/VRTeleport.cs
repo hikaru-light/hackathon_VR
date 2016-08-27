@@ -15,6 +15,10 @@ public class VRTeleport : MonoBehaviour
     [SerializeField]
     LayerMask exclusionLayer;
 
+    /// <summary>カメラフェード管理クラス</summary>
+    [SerializeField]
+    VRCameraFade vrCameraFade;
+
     /// <summary>
     /// 移動用レーザー
     /// </summary>
@@ -75,7 +79,8 @@ public class VRTeleport : MonoBehaviour
             // 離したタイミングで選択していた移動先があったらテレポート
             if (this.currentTarget != null)
             {
-                this.transform.parent.position = this.currentTarget.transform.position;
+                //this.transform.parent.position = this.currentTarget.transform.position;
+                this.FadeStart(this.currentTarget.transform.position);
             }
             if (this.preTarget != null)
             {
@@ -134,5 +139,17 @@ public class VRTeleport : MonoBehaviour
                 this.myCameraTrs.position.y - 0.3f,
                 this.myCameraTrs.position.z));
         this.LaserRenderer.SetPosition(1, this.laserPoint.position);
+    }
+
+    void FadeStart(Vector3 movePos)
+    {
+        var fadeDuration = 0.2f;
+        var fadeColor = Color.black;
+        this.vrCameraFade.FadeOut(fadeDuration, fadeColor,
+            () =>
+            {
+                this.transform.parent.position = movePos;
+                this.vrCameraFade.FadeIn(fadeDuration, fadeColor);
+            });
     }
 }

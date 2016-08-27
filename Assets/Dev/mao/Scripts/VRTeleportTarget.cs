@@ -24,7 +24,6 @@ public class VRTeleportTarget : MonoBehaviour
     /// <summary>ターゲット注視</summary>
     public void HandleOver()
     {
-        Debug.Log("-------------- red");
         if (!this.renderer.enabled) { return; }
         this.renderer.material.color = Color.red;
         this.NowGazeType = GazeType.Over;
@@ -32,7 +31,6 @@ public class VRTeleportTarget : MonoBehaviour
     /// <summary>ターゲット注視解除</summary>
     public void HandleOut()
     {
-        Debug.Log("-------------- false");
         if (!this.renderer.enabled) { return; }
         this.renderer.material.color = Color.blue;
         this.NowGazeType = GazeType.Out;
