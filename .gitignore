@@ -35,3 +35,6 @@ sysinfo.txt
 
 # ROM
 *.apk
+
+#server_programing_settings
+server/node_modules
