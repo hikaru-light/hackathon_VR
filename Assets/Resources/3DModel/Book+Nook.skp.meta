@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: d81551b9e78a041feabcd5a2d05c896a
+timeCreated: 1472276893
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000
+  assetHash:
+    serializedVersion: 2
+    Hash: a59c2fc2b134a46505b1b23bae9e0742
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 7.25467, y: 2.446376, z: -5.5424056}
+      lookAt: {x: 3.5577374, y: 1.0966336, z: 0.98272026}
+      up: {x: -0.08731519, y: 0.9841877, z: 0.15411223}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back wall
+    100002: bed
+    100004: bench
+    100006: //RootNode
+    100008: floor
+    100010: plane
+    100012: shelf
+    100014: shelf wall 2
+    100016: shelve
+    100018: stair1
+    100020: stair1 1
+    100022: stair1#1
+    100024: step
+    100026: step 1
+    100028: step 10
+    100030: step 11
+    100032: step 12
+    100034: step 13
+    100036: step 14
+    100038: step 2
+    100040: step 3
+    100042: step 4
+    100044: step 5
+    100046: step 6
+    100048: step 7
+    100050: step 8
+    100052: step 9
+    100054: step#1
+    100056: step#1 1
+    100058: top shelf 1
+    400000: back wall
+    400002: bed
+    400004: bench
+    400006: //RootNode
+    400008: floor
+    400010: plane
+    400012: shelf
+    400014: shelf wall 2
+    400016: shelve
+    400018: stair1
+    400020: stair1 1
+    400022: stair1#1
+    400024: step
+    400026: step 1
+    400028: step 10
+    400030: step 11
+    400032: step 12
+    400034: step 13
+    400036: step 14
+    400038: step 2
+    400040: step 3
+    400042: step 4
+    400044: step 5
+    400046: step 6
+    400048: step 7
+    400050: step 8
+    400052: step 9
+    400054: step#1
+    400056: step#1 1
+    400058: top shelf 1
+    2300000: back wall
+    2300002: bed
+    2300004: bench
+    2300006: //RootNode
+    2300008: floor
+    2300010: plane
+    2300012: shelf
+    2300014: shelf wall 2
+    2300016: shelve
+    2300018: step
+    2300020: step 1
+    2300022: step 10
+    2300024: step 11
+    2300026: step 12
+    2300028: step 13
+    2300030: step 14
+    2300032: step 2
+    2300034: step 3
+    2300036: step 4
+    2300038: step 5
+    2300040: step 6
+    2300042: step 7
+    2300044: step 8
+    2300046: step 9
+    2300048: step#1
+    2300050: step#1 1
+    2300052: top shelf 1
+    3300000: back wall
+    3300002: bed
+    3300004: bench
+    3300006: //RootNode
+    3300008: floor
+    3300010: plane
+    3300012: shelf
+    3300014: shelf wall 2
+    3300016: shelve
+    3300018: step
+    3300020: step 1
+    3300022: step 10
+    3300024: step 11
+    3300026: step 12
+    3300028: step 13
+    3300030: step 14
+    3300032: step 2
+    3300034: step 3
+    3300036: step 4
+    3300038: step 5
+    3300040: step 6
+    3300042: step 7
+    3300044: step 8
+    3300046: step 9
+    3300048: step#1
+    3300050: step#1 1
+    3300052: top shelf 1
+    4300000: Mesh Book+Nook
+    4300002: Mesh step
+    4300004: Mesh step#1
+    4300006: Mesh plane
+    4300008: Mesh floor
+    4300010: Mesh bed
+    4300012: Mesh shelve
+    4300014: Mesh shelf
+    4300016: Mesh shelf wall 2
+    4300018: Mesh top shelf 1
+    4300020: Mesh bench
+    4300022: Mesh back wall
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
