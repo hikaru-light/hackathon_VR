@@ -1,26 +1,21 @@
 fileFormatVersion: 2
-guid: 59177834662aa4ead89a6c07a4715165
-timeCreated: 1465328657
-licenseType: Pro
+guid: e9b0d768d1019484f9b1e05a2177a7da
+timeCreated: 1472298604
+licenseType: Free
 PluginImporter:
   serializedVersion: 1
   iconMap: {}
   executionOrder: {}
   isPreloaded: 1
   platformData:
-    Android:
-      enabled: 0
-      settings:
-        CPU: AnyCPU
     Any:
-      enabled: 0
+      enabled: 1
       settings: {}
     Editor:
-      enabled: 1
+      enabled: 0
       settings:
         CPU: x86_64
         DefaultValueInitialized: true
-        OS: Windows
     Linux:
       enabled: 0
       settings:
@@ -30,7 +25,7 @@ PluginImporter:
       settings:
         CPU: x86_64
     LinuxUniversal:
-      enabled: 0
+      enabled: 1
       settings:
         CPU: x86_64
     OSXIntel:
@@ -45,10 +40,6 @@ PluginImporter:
       enabled: 0
       settings:
         CPU: x86_64
-    SamsungTV:
-      enabled: 0
-      settings:
-        STV_MODEL: STANDARD_13
     Win:
       enabled: 0
       settings:
@@ -57,11 +48,6 @@ PluginImporter:
       enabled: 1
       settings:
         CPU: AnyCPU
-    iOS:
-      enabled: 0
-      settings:
-        CompileFlags: 
-        FrameworkDependencies: 
   userData: 
   assetBundleName: 
   assetBundleVariant: 
