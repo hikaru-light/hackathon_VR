@@ -1,0 +1,1457 @@
+fileFormatVersion: 2
+guid: 0e174bed47c97420798934f4c875acc7
+timeCreated: 1472284416
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002200000023000000240000002500000026000000270000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff00000000010000010100000201000003010000040100000501000006010000070100000c0100000d0100000e0100000f0100001001000013010000140100001501000016010000170100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f010000300100003101000032010000330100003401000035010000360100003701000038010000390100003a0100003b0100003c0100003d0100003e0100003f010000400100004101000042010000430100004401000045010000460100004701000048010000490100004a0100004b0100004c0100004d0100004e0100004f010000500100005101000052010000530100005401000055010000560100005701000058010000590100005a0100005b0100005c0100005d0100005e0100005f010000600100006101000062010000630100006401000065010000660100006701000068010000690100006a0100006b0100006c0100006d0100006e0100006f010000700100007101000072010000730100007401000075010000760100007701000078010000790100007a0100007b0100007c0100007d0100007e0100007f010000800100008101000082010000830100008401000085010000860100008701000088010000890100008a0100008b0100008c0100008d0100008e0100008f010000900100009101000092010000930100009401000095010000960100009701000098010000990100009a0100009b0100009c0100009d0100009e0100009f010000a0010000a1010000a2010000a3010000a4010000a5010000a6010000a7010000a8010000a9010000aa010000ab010000ac010000ad010000ae010000af010000b0010000b1010000b2010000b3010000b4010000b5010000b6010000b7010000b8010000b9010000ba010000bb010000bc010000bd010000be010000bf010000c0010000c1010000c2010000c3010000c4010000c5010000c6010000c7010000c8010000c9010000ca010000cb010000cc010000cd010000ce010000cf010000d0010000d1010000d2010000d3010000d4010000d5010000d6010000d7010000d8010000d9010000da010000db010000dc010000dd010000de010000df010000e0010000e1010000e2010000e3010000e4010000e5010000e6010000e7010000e8010000e9010000ea010000eb010000ec010000ed010000ee010000ef010000f0010000f1010000f2010000f3010000f4010000f5010000f6010000f7010000f8010000f9010000fa010000fb010000fc010000fd010000fe010000ff010000000200000102000002020000030200000402000005020000060200000702000008020000090200000a0200000b0200000c0200000d0200000e0200000f020000100200001102000012020000130200001402000015020000160200001702000018020000190200001a0200001b0200001c0200001d0200001e0200001f020000200200002102000022020000230200002402000025020000260200002702000028020000290200002a0200002b0200002c0200002d0200002e0200002f020000300200003102000032020000330200003402000035020000360200003702000038020000390200003a0200003b0200003c0200003d0200003e0200003f020000400200004102000042020000430200004402000045020000460200004702000048020000490200004a0200004b0200004c0200004d0200004e0200004f020000500200005102000052020000530200005402000055020000560200005702000058020000590200005a0200005b0200005c0200005d0200005e0200005f020000600200006102000062020000630200006402000065020000660200006702000068020000690200006a0200006b0200006c0200006d0200006e0200006f020000700200007102000072020000730200007402000075020000760200007702000078020000
+  assetHash:
+    serializedVersion: 2
+    Hash: eb29792f1fb76f31af60d51352578f8b
+  longitude: 131.93318068035086
+  latitude: 43.16700354729638
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 4.0251956, y: 8.191834, z: 5.011411}
+      lookAt: {x: -7.8994393, y: -80.742294, z: -38.66052}
+      up: {x: -0.2347442, y: 0.45364425, z: -0.85971045}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 61
+    100002: 61 1
+    100004: 61 2
+    100006: baby hanger
+    100008: Badkamerkast2000x520x450_Beuken
+    100010: base
+    100012: bath tub
+    100014: Bath Vanity
+    100016: Bath Vanity#1
+    100018: Bathroom Sink
+    100020: Bathroom Vanity and Table
+    100022: bedroom eva dressing table dresser
+    100024: Bolt
+    100026: Bolt 1
+    100028: Bolt Part
+    100030: Bolt Part 1
+    100032: Bolt Part 10
+    100034: Bolt Part 11
+    100036: Bolt Part 12
+    100038: Bolt Part 13
+    100040: Bolt Part 14
+    100042: Bolt Part 15
+    100044: Bolt Part 16
+    100046: Bolt Part 17
+    100048: Bolt Part 18
+    100050: Bolt Part 19
+    100052: Bolt Part 2
+    100054: Bolt Part 20
+    100056: Bolt Part 21
+    100058: Bolt Part 22
+    100060: Bolt Part 23
+    100062: Bolt Part 3
+    100064: Bolt Part 4
+    100066: Bolt Part 5
+    100068: Bolt Part 6
+    100070: Bolt Part 7
+    100072: Bolt Part 8
+    100074: Bolt Part 9
+    100076: Clothing Racks
+    100078: Component#11
+    100080: Component#11 1
+    100082: Component#12
+    100084: Component#14
+    100086: Component#14 1
+    100088: Component#14 10
+    100090: Component#14 11
+    100092: Component#14 12
+    100094: Component#14 13
+    100096: Component#14 14
+    100098: Component#14 15
+    100100: Component#14 16
+    100102: Component#14 17
+    100104: Component#14 18
+    100106: Component#14 19
+    100108: Component#14 2
+    100110: Component#14 20
+    100112: Component#14 21
+    100114: Component#14 22
+    100116: Component#14 23
+    100118: Component#14 24
+    100120: Component#14 25
+    100122: Component#14 26
+    100124: Component#14 27
+    100126: Component#14 28
+    100128: Component#14 29
+    100130: Component#14 3
+    100132: Component#14 30
+    100134: Component#14 31
+    100136: Component#14 32
+    100138: Component#14 33
+    100140: Component#14 34
+    100142: Component#14 35
+    100144: Component#14 36
+    100146: Component#14 37
+    100148: Component#14 38
+    100150: Component#14 4
+    100152: Component#14 5
+    100154: Component#14 6
+    100156: Component#14 7
+    100158: Component#14 8
+    100160: Component#14 9
+    100162: Component#15
+    100164: Component#15 1
+    100166: Component#15 2
+    100168: Component#15 3
+    100170: Component#15 4
+    100172: Component#21
+    100174: Component#21 1
+    100176: Component#21 2
+    100178: Component#22
+    100180: Component#23
+    100182: Component#24
+    100184: Component#29
+    100186: Component#30
+    100188: Component#31
+    100190: Component#32
+    100192: Component#33
+    100194: cr wall
+    100196: Deurgreepje150x15Hor_01
+    100198: Deurgreepje150x15Vert_01
+    100200: Deurgreepje150x15Vert_01 1
+    100202: Deurgreepje150x15Vert_01 2
+    100204: Deurgreepje150x15Vert_01 3
+    100206: Door
+    100208: Door 1
+    100210: Door 2
+    100212: Door Panel
+    100214: Door Panel 1
+    100216: Door Panel 2
+    100218: Door Panel Front Side Moulding
+    100220: Door Panel Front Side Moulding 1
+    100222: Door Panel Front Side Moulding 2
+    100224: Door_arched frame
+    100226: Door_arched frame 1
+    100228: Door_arched frame 2
+    100230: Door_Modern
+    100232: Door_Modern 1
+    100234: Door_Modern#1
+    100236: Door_Modern#1 1
+    100238: Doorleft
+    100240: Doorleftunder
+    100242: Doorright
+    100244: Doorrightunder
+    100246: drying
+    100248: ds
+    100250: ds 1
+    100252: ds 2
+    100254: ds 3
+    100256: ds 4
+    100258: ds 5
+    100260: ds 6
+    100262: ds 7
+    100264: ds 8
+    100266: ds 9
+    100268: ds#2
+    100270: ds#2 1
+    100272: ds#2 2
+    100274: ds#2 3
+    100276: ds#2 4
+    100278: Dust Bin / Trash Can
+    100280: EJBY Garderobekast
+    100282: Front Cover
+    100284: Front Cover 1
+    100286: Garbage Can / Dust Bin
+    100288: Grohe Shower Set
+    100290: Group 1
+    100292: Group 106
+    100294: Group 107
+    100296: Group 109
+    100298: Group 11
+    100300: Group 113
+    100302: Group 114
+    100304: Group 116
+    100306: Group 120
+    100308: Group 121
+    100310: Group 123
+    100312: Group 127
+    100314: Group 128
+    100316: Group 13
+    100318: Group 130
+    100320: Group 134
+    100322: Group 136
+    100324: Group 14
+    100326: Group 143
+    100328: Group 145
+    100330: Group 146
+    100332: Group 148
+    100334: Group 152
+    100336: Group 159
+    100338: Group 166
+    100340: Group 17
+    100342: Group 173
+    100344: Group 184
+    100346: Group 186
+    100348: Group 188
+    100350: Group 19
+    100352: Group 190
+    100354: Group 194
+    100356: Group 196
+    100358: Group 198
+    100360: Group 200
+    100362: Group 202
+    100364: Group 204
+    100366: Group 206
+    100368: Group 208
+    100370: Group 21
+    100372: Group 210
+    100374: Group 212
+    100376: Group 214
+    100378: Group 216
+    100380: Group 218
+    100382: Group 220
+    100384: Group 222
+    100386: Group 224
+    100388: Group 226
+    100390: Group 228
+    100392: Group 23
+    100394: Group 230
+    100396: Group 232
+    100398: Group 234
+    100400: Group 236
+    100402: Group 238
+    100404: Group 240
+    100406: Group 242
+    100408: Group 244
+    100410: Group 246
+    100412: Group 248
+    100414: Group 250
+    100416: Group 254
+    100418: Group 255
+    100420: Group 260
+    100422: Group 262
+    100424: Group 269
+    100426: Group 271
+    100428: Group 276
+    100430: Group 278
+    100432: Group 3
+    100434: Group 377
+    100436: Group 384
+    100438: Group 4
+    100440: Group 450
+    100442: Group 452
+    100444: Group 455
+    100446: Group 457
+    100448: Group 459
+    100450: Group 462
+    100452: Group 463
+    100454: Group 465
+    100456: Group 467
+    100458: Group 468
+    100460: Group 48
+    100462: Group 480
+    100464: Group 487
+    100466: Group 493
+    100468: Group 498
+    100470: Group 50
+    100472: Group 500
+    100474: Group 503
+    100476: Group 505
+    100478: Group 52
+    100480: Group 533
+    100482: Group 535
+    100484: Group 54
+    100486: Group 56
+    100488: Group 58
+    100490: Group 587
+    100492: Group 592
+    100494: Group 60
+    100496: Group 62
+    100498: Group 7
+    100500: Group 81
+    100502: Group 82
+    100504: Group 84
+    100506: Group 85
+    100508: Group 87
+    100510: Group 88
+    100512: Group 9
+    100514: Group 90
+    100516: Group 91
+    100518: Group 93
+    100520: Group 94
+    100522: Group#1
+    100524: Group#1 1
+    100526: Group#1 2
+    100528: Group#169
+    100530: Group#344
+    100532: Group#344 1
+    100534: Group58#1
+    100536: Group58#1 1
+    100538: Group58#1 2
+    100540: handel
+    100542: handel 1
+    100544: handel 2
+    100546: handel 3
+    100548: handel 4
+    100550: Handle
+    100552: Handle 1
+    100554: Handle 2
+    100556: Handle 3
+    100558: Handle Guard With Key Hole
+    100560: Handle Guard With Key Hole 1
+    100562: Handle Guard With Key Hole#2
+    100564: Handle Guard With Key Hole#2 1
+    100566: Handle Part
+    100568: Handle Part 1
+    100570: Handle Part 2
+    100572: Handle Part 3
+    100574: hanger
+    100576: Hanger Clothes Rack
+    100578: HDW_KNOB#1
+    100580: HDW_KNOB#1 1
+    100582: HDW_KNOB#1 2
+    100584: HDW_KNOB#1 3
+    100586: HDW_KNOB#1 4
+    100588: HDW_KNOB#1 5
+    100590: Head
+    100592: Head A
+    100594: Head B
+    100596: Head C
+    100598: Head Holder
+    100600: KEY LOCK
+    100602: Knob For Handle
+    100604: Knob For Handle 1
+    100606: Knob For Handle 2
+    100608: Knob For Handle 3
+    100610: Lade
+    100612: LAYOUT - papeleira - banheiro
+    100614: LAYOUT - papeleira - banheiro 1
+    100616: leg 1
+    100618: leg 1 1
+    100620: leg 1 2
+    100622: leg 1 3
+    100624: logo#1
+    100626: Mast.Bed rm
+    100628: Mast.Bed rm#1
+    100630: //RootNode
+    100632: Modern Interior Door
+    100634: Modern Interior Door 1
+    100636: Mount
+    100638: Mount 1
+    100640: OUTER COVER#1
+    100642: Rail Bottom
+    100644: Rail Bottom 1
+    100646: Rail Bottom 2
+    100648: Rail Top
+    100650: Rail Top 1
+    100652: Rail Top 2
+    100654: RODX605
+    100656: 'RODX605E Waste Bin For Recessed Mounting '
+    100658: sdssd
+    100660: sdssd 1
+    100662: sdssd 2
+    100664: sdssd 3
+    100666: sdssd 4
+    100668: seat
+    100670: seat 1
+    100672: seat support
+    100674: Selang
+    100676: Shower Mixer
+    100678: Side Cover
+    100680: Side Cover 1
+    100682: Sink Bowl#1
+    100684: Sink Drain
+    100686: Sitting on the toilet
+    100688: Slide Bar
+    100690: Slider
+    100692: Spacer
+    100694: Spacer 1
+    100696: Standard Internal Door 20131210LJW
+    100698: Standard Internal Door 20131210LJW 1
+    100700: Stile Left
+    100702: Stile Left 1
+    100704: Stile Left 2
+    100706: Stile Right
+    100708: Stile Right 1
+    100710: Stile Right 2
+    100712: Tap Head
+    100714: Tap Silinder
+    100716: "Toilette/ Toilet / WC n\xB03"
+    100718: Vanity Top Assy 1
+    100720: Vanity#2
+    100722: Wall Mount
+    100724: Wall Mount 1
+    100726: Washing_machine
+    100728: Water Mixer
+    100730: Wooden Door
+    100732: Wooden Door 1
+    100734: Wooden Door 2
+    400000: 61
+    400002: 61 1
+    400004: 61 2
+    400006: baby hanger
+    400008: Badkamerkast2000x520x450_Beuken
+    400010: base
+    400012: bath tub
+    400014: Bath Vanity
+    400016: Bath Vanity#1
+    400018: Bathroom Sink
+    400020: Bathroom Vanity and Table
+    400022: bedroom eva dressing table dresser
+    400024: Bolt
+    400026: Bolt 1
+    400028: Bolt Part
+    400030: Bolt Part 1
+    400032: Bolt Part 10
+    400034: Bolt Part 11
+    400036: Bolt Part 12
+    400038: Bolt Part 13
+    400040: Bolt Part 14
+    400042: Bolt Part 15
+    400044: Bolt Part 16
+    400046: Bolt Part 17
+    400048: Bolt Part 18
+    400050: Bolt Part 19
+    400052: Bolt Part 2
+    400054: Bolt Part 20
+    400056: Bolt Part 21
+    400058: Bolt Part 22
+    400060: Bolt Part 23
+    400062: Bolt Part 3
+    400064: Bolt Part 4
+    400066: Bolt Part 5
+    400068: Bolt Part 6
+    400070: Bolt Part 7
+    400072: Bolt Part 8
+    400074: Bolt Part 9
+    400076: Clothing Racks
+    400078: Component#11
+    400080: Component#11 1
+    400082: Component#12
+    400084: Component#14
+    400086: Component#14 1
+    400088: Component#14 10
+    400090: Component#14 11
+    400092: Component#14 12
+    400094: Component#14 13
+    400096: Component#14 14
+    400098: Component#14 15
+    400100: Component#14 16
+    400102: Component#14 17
+    400104: Component#14 18
+    400106: Component#14 19
+    400108: Component#14 2
+    400110: Component#14 20
+    400112: Component#14 21
+    400114: Component#14 22
+    400116: Component#14 23
+    400118: Component#14 24
+    400120: Component#14 25
+    400122: Component#14 26
+    400124: Component#14 27
+    400126: Component#14 28
+    400128: Component#14 29
+    400130: Component#14 3
+    400132: Component#14 30
+    400134: Component#14 31
+    400136: Component#14 32
+    400138: Component#14 33
+    400140: Component#14 34
+    400142: Component#14 35
+    400144: Component#14 36
+    400146: Component#14 37
+    400148: Component#14 38
+    400150: Component#14 4
+    400152: Component#14 5
+    400154: Component#14 6
+    400156: Component#14 7
+    400158: Component#14 8
+    400160: Component#14 9
+    400162: Component#15
+    400164: Component#15 1
+    400166: Component#15 2
+    400168: Component#15 3
+    400170: Component#15 4
+    400172: Component#21
+    400174: Component#21 1
+    400176: Component#21 2
+    400178: Component#22
+    400180: Component#23
+    400182: Component#24
+    400184: Component#29
+    400186: Component#30
+    400188: Component#31
+    400190: Component#32
+    400192: Component#33
+    400194: cr wall
+    400196: Deurgreepje150x15Hor_01
+    400198: Deurgreepje150x15Vert_01
+    400200: Deurgreepje150x15Vert_01 1
+    400202: Deurgreepje150x15Vert_01 2
+    400204: Deurgreepje150x15Vert_01 3
+    400206: Door
+    400208: Door 1
+    400210: Door 2
+    400212: Door Panel
+    400214: Door Panel 1
+    400216: Door Panel 2
+    400218: Door Panel Front Side Moulding
+    400220: Door Panel Front Side Moulding 1
+    400222: Door Panel Front Side Moulding 2
+    400224: Door_arched frame
+    400226: Door_arched frame 1
+    400228: Door_arched frame 2
+    400230: Door_Modern
+    400232: Door_Modern 1
+    400234: Door_Modern#1
+    400236: Door_Modern#1 1
+    400238: Doorleft
+    400240: Doorleftunder
+    400242: Doorright
+    400244: Doorrightunder
+    400246: drying
+    400248: ds
+    400250: ds 1
+    400252: ds 2
+    400254: ds 3
+    400256: ds 4
+    400258: ds 5
+    400260: ds 6
+    400262: ds 7
+    400264: ds 8
+    400266: ds 9
+    400268: ds#2
+    400270: ds#2 1
+    400272: ds#2 2
+    400274: ds#2 3
+    400276: ds#2 4
+    400278: Dust Bin / Trash Can
+    400280: EJBY Garderobekast
+    400282: Front Cover
+    400284: Front Cover 1
+    400286: Garbage Can / Dust Bin
+    400288: Grohe Shower Set
+    400290: Group 1
+    400292: Group 106
+    400294: Group 107
+    400296: Group 109
+    400298: Group 11
+    400300: Group 113
+    400302: Group 114
+    400304: Group 116
+    400306: Group 120
+    400308: Group 121
+    400310: Group 123
+    400312: Group 127
+    400314: Group 128
+    400316: Group 13
+    400318: Group 130
+    400320: Group 134
+    400322: Group 136
+    400324: Group 14
+    400326: Group 143
+    400328: Group 145
+    400330: Group 146
+    400332: Group 148
+    400334: Group 152
+    400336: Group 159
+    400338: Group 166
+    400340: Group 17
+    400342: Group 173
+    400344: Group 184
+    400346: Group 186
+    400348: Group 188
+    400350: Group 19
+    400352: Group 190
+    400354: Group 194
+    400356: Group 196
+    400358: Group 198
+    400360: Group 200
+    400362: Group 202
+    400364: Group 204
+    400366: Group 206
+    400368: Group 208
+    400370: Group 21
+    400372: Group 210
+    400374: Group 212
+    400376: Group 214
+    400378: Group 216
+    400380: Group 218
+    400382: Group 220
+    400384: Group 222
+    400386: Group 224
+    400388: Group 226
+    400390: Group 228
+    400392: Group 23
+    400394: Group 230
+    400396: Group 232
+    400398: Group 234
+    400400: Group 236
+    400402: Group 238
+    400404: Group 240
+    400406: Group 242
+    400408: Group 244
+    400410: Group 246
+    400412: Group 248
+    400414: Group 250
+    400416: Group 254
+    400418: Group 255
+    400420: Group 260
+    400422: Group 262
+    400424: Group 269
+    400426: Group 271
+    400428: Group 276
+    400430: Group 278
+    400432: Group 3
+    400434: Group 377
+    400436: Group 384
+    400438: Group 4
+    400440: Group 450
+    400442: Group 452
+    400444: Group 455
+    400446: Group 457
+    400448: Group 459
+    400450: Group 462
+    400452: Group 463
+    400454: Group 465
+    400456: Group 467
+    400458: Group 468
+    400460: Group 48
+    400462: Group 480
+    400464: Group 487
+    400466: Group 493
+    400468: Group 498
+    400470: Group 50
+    400472: Group 500
+    400474: Group 503
+    400476: Group 505
+    400478: Group 52
+    400480: Group 533
+    400482: Group 535
+    400484: Group 54
+    400486: Group 56
+    400488: Group 58
+    400490: Group 587
+    400492: Group 592
+    400494: Group 60
+    400496: Group 62
+    400498: Group 7
+    400500: Group 81
+    400502: Group 82
+    400504: Group 84
+    400506: Group 85
+    400508: Group 87
+    400510: Group 88
+    400512: Group 9
+    400514: Group 90
+    400516: Group 91
+    400518: Group 93
+    400520: Group 94
+    400522: Group#1
+    400524: Group#1 1
+    400526: Group#1 2
+    400528: Group#169
+    400530: Group#344
+    400532: Group#344 1
+    400534: Group58#1
+    400536: Group58#1 1
+    400538: Group58#1 2
+    400540: handel
+    400542: handel 1
+    400544: handel 2
+    400546: handel 3
+    400548: handel 4
+    400550: Handle
+    400552: Handle 1
+    400554: Handle 2
+    400556: Handle 3
+    400558: Handle Guard With Key Hole
+    400560: Handle Guard With Key Hole 1
+    400562: Handle Guard With Key Hole#2
+    400564: Handle Guard With Key Hole#2 1
+    400566: Handle Part
+    400568: Handle Part 1
+    400570: Handle Part 2
+    400572: Handle Part 3
+    400574: hanger
+    400576: Hanger Clothes Rack
+    400578: HDW_KNOB#1
+    400580: HDW_KNOB#1 1
+    400582: HDW_KNOB#1 2
+    400584: HDW_KNOB#1 3
+    400586: HDW_KNOB#1 4
+    400588: HDW_KNOB#1 5
+    400590: Head
+    400592: Head A
+    400594: Head B
+    400596: Head C
+    400598: Head Holder
+    400600: KEY LOCK
+    400602: Knob For Handle
+    400604: Knob For Handle 1
+    400606: Knob For Handle 2
+    400608: Knob For Handle 3
+    400610: Lade
+    400612: LAYOUT - papeleira - banheiro
+    400614: LAYOUT - papeleira - banheiro 1
+    400616: leg 1
+    400618: leg 1 1
+    400620: leg 1 2
+    400622: leg 1 3
+    400624: logo#1
+    400626: Mast.Bed rm
+    400628: Mast.Bed rm#1
+    400630: //RootNode
+    400632: Modern Interior Door
+    400634: Modern Interior Door 1
+    400636: Mount
+    400638: Mount 1
+    400640: OUTER COVER#1
+    400642: Rail Bottom
+    400644: Rail Bottom 1
+    400646: Rail Bottom 2
+    400648: Rail Top
+    400650: Rail Top 1
+    400652: Rail Top 2
+    400654: RODX605
+    400656: 'RODX605E Waste Bin For Recessed Mounting '
+    400658: sdssd
+    400660: sdssd 1
+    400662: sdssd 2
+    400664: sdssd 3
+    400666: sdssd 4
+    400668: seat
+    400670: seat 1
+    400672: seat support
+    400674: Selang
+    400676: Shower Mixer
+    400678: Side Cover
+    400680: Side Cover 1
+    400682: Sink Bowl#1
+    400684: Sink Drain
+    400686: Sitting on the toilet
+    400688: Slide Bar
+    400690: Slider
+    400692: Spacer
+    400694: Spacer 1
+    400696: Standard Internal Door 20131210LJW
+    400698: Standard Internal Door 20131210LJW 1
+    400700: Stile Left
+    400702: Stile Left 1
+    400704: Stile Left 2
+    400706: Stile Right
+    400708: Stile Right 1
+    400710: Stile Right 2
+    400712: Tap Head
+    400714: Tap Silinder
+    400716: "Toilette/ Toilet / WC n\xB03"
+    400718: Vanity Top Assy 1
+    400720: Vanity#2
+    400722: Wall Mount
+    400724: Wall Mount 1
+    400726: Washing_machine
+    400728: Water Mixer
+    400730: Wooden Door
+    400732: Wooden Door 1
+    400734: Wooden Door 2
+    2300000: baby hanger
+    2300002: Badkamerkast2000x520x450_Beuken
+    2300004: base
+    2300006: bath tub
+    2300008: Bathroom Vanity and Table
+    2300010: bedroom eva dressing table dresser
+    2300012: Bolt Part
+    2300014: Bolt Part 1
+    2300016: Bolt Part 10
+    2300018: Bolt Part 11
+    2300020: Bolt Part 12
+    2300022: Bolt Part 13
+    2300024: Bolt Part 14
+    2300026: Bolt Part 15
+    2300028: Bolt Part 16
+    2300030: Bolt Part 17
+    2300032: Bolt Part 18
+    2300034: Bolt Part 19
+    2300036: Bolt Part 2
+    2300038: Bolt Part 20
+    2300040: Bolt Part 21
+    2300042: Bolt Part 22
+    2300044: Bolt Part 23
+    2300046: Bolt Part 3
+    2300048: Bolt Part 4
+    2300050: Bolt Part 5
+    2300052: Bolt Part 6
+    2300054: Bolt Part 7
+    2300056: Bolt Part 8
+    2300058: Bolt Part 9
+    2300060: Component#11
+    2300062: Component#11 1
+    2300064: Component#12
+    2300066: Component#15
+    2300068: Component#15 1
+    2300070: Component#15 2
+    2300072: Component#15 3
+    2300074: Component#15 4
+    2300076: Component#21
+    2300078: Component#21 1
+    2300080: Component#21 2
+    2300082: Component#22
+    2300084: Component#23
+    2300086: Component#24
+    2300088: Component#29
+    2300090: Component#30
+    2300092: Component#32
+    2300094: Component#33
+    2300096: cr wall
+    2300098: Door Panel
+    2300100: Door Panel 1
+    2300102: Door Panel 2
+    2300104: Door Panel Front Side Moulding
+    2300106: Door Panel Front Side Moulding 1
+    2300108: Door Panel Front Side Moulding 2
+    2300110: Doorleft
+    2300112: Doorleftunder
+    2300114: Doorright
+    2300116: Doorrightunder
+    2300118: ds
+    2300120: ds 1
+    2300122: ds 2
+    2300124: ds 3
+    2300126: ds 4
+    2300128: ds 5
+    2300130: ds 6
+    2300132: ds 7
+    2300134: ds 8
+    2300136: ds 9
+    2300138: ds#2
+    2300140: ds#2 1
+    2300142: ds#2 2
+    2300144: ds#2 3
+    2300146: ds#2 4
+    2300148: Dust Bin / Trash Can
+    2300150: Front Cover
+    2300152: Front Cover 1
+    2300154: Grohe Shower Set
+    2300156: Group 107
+    2300158: Group 109
+    2300160: Group 11
+    2300162: Group 114
+    2300164: Group 116
+    2300166: Group 121
+    2300168: Group 123
+    2300170: Group 128
+    2300172: Group 130
+    2300174: Group 134
+    2300176: Group 14
+    2300178: Group 143
+    2300180: Group 146
+    2300182: Group 148
+    2300184: Group 17
+    2300186: Group 184
+    2300188: Group 186
+    2300190: Group 188
+    2300192: Group 19
+    2300194: Group 190
+    2300196: Group 194
+    2300198: Group 196
+    2300200: Group 198
+    2300202: Group 200
+    2300204: Group 202
+    2300206: Group 204
+    2300208: Group 206
+    2300210: Group 208
+    2300212: Group 21
+    2300214: Group 210
+    2300216: Group 212
+    2300218: Group 214
+    2300220: Group 216
+    2300222: Group 218
+    2300224: Group 220
+    2300226: Group 222
+    2300228: Group 224
+    2300230: Group 226
+    2300232: Group 228
+    2300234: Group 230
+    2300236: Group 232
+    2300238: Group 234
+    2300240: Group 236
+    2300242: Group 238
+    2300244: Group 240
+    2300246: Group 242
+    2300248: Group 244
+    2300250: Group 246
+    2300252: Group 248
+    2300254: Group 250
+    2300256: Group 255
+    2300258: Group 260
+    2300260: Group 262
+    2300262: Group 269
+    2300264: Group 271
+    2300266: Group 276
+    2300268: Group 278
+    2300270: Group 377
+    2300272: Group 384
+    2300274: Group 4
+    2300276: Group 450
+    2300278: Group 452
+    2300280: Group 455
+    2300282: Group 457
+    2300284: Group 459
+    2300286: Group 463
+    2300288: Group 465
+    2300290: Group 468
+    2300292: Group 48
+    2300294: Group 480
+    2300296: Group 487
+    2300298: Group 498
+    2300300: Group 50
+    2300302: Group 500
+    2300304: Group 503
+    2300306: Group 505
+    2300308: Group 52
+    2300310: Group 533
+    2300312: Group 535
+    2300314: Group 54
+    2300316: Group 56
+    2300318: Group 58
+    2300320: Group 587
+    2300322: Group 592
+    2300324: Group 60
+    2300326: Group 62
+    2300328: Group 7
+    2300330: Group 82
+    2300332: Group 85
+    2300334: Group 88
+    2300336: Group 9
+    2300338: Group 91
+    2300340: Group 94
+    2300342: Group#1
+    2300344: Group#1 1
+    2300346: Group#1 2
+    2300348: Group#169
+    2300350: Group#344
+    2300352: Group#344 1
+    2300354: Group58#1
+    2300356: Group58#1 1
+    2300358: Group58#1 2
+    2300360: handel
+    2300362: handel 1
+    2300364: handel 2
+    2300366: handel 3
+    2300368: handel 4
+    2300370: Handle
+    2300372: Handle 1
+    2300374: Handle 2
+    2300376: Handle 3
+    2300378: Handle Guard With Key Hole
+    2300380: Handle Guard With Key Hole 1
+    2300382: Handle Guard With Key Hole#2
+    2300384: Handle Guard With Key Hole#2 1
+    2300386: hanger
+    2300388: Hanger Clothes Rack
+    2300390: HDW_KNOB#1
+    2300392: HDW_KNOB#1 1
+    2300394: HDW_KNOB#1 2
+    2300396: HDW_KNOB#1 3
+    2300398: HDW_KNOB#1 4
+    2300400: HDW_KNOB#1 5
+    2300402: Head
+    2300404: Head A
+    2300406: Head B
+    2300408: Head C
+    2300410: Head Holder
+    2300412: Knob For Handle
+    2300414: Knob For Handle 1
+    2300416: Knob For Handle 2
+    2300418: Knob For Handle 3
+    2300420: Lade
+    2300422: leg 1
+    2300424: leg 1 1
+    2300426: leg 1 2
+    2300428: leg 1 3
+    2300430: logo#1
+    2300432: Mast.Bed rm
+    2300434: OUTER COVER#1
+    2300436: Rail Bottom
+    2300438: Rail Bottom 1
+    2300440: Rail Bottom 2
+    2300442: Rail Top
+    2300444: Rail Top 1
+    2300446: Rail Top 2
+    2300448: sdssd
+    2300450: sdssd 1
+    2300452: sdssd 2
+    2300454: sdssd 3
+    2300456: sdssd 4
+    2300458: seat
+    2300460: seat 1
+    2300462: seat support
+    2300464: Selang
+    2300466: Shower Mixer
+    2300468: Side Cover
+    2300470: Side Cover 1
+    2300472: Sink Bowl#1
+    2300474: Sink Drain
+    2300476: Slide Bar
+    2300478: Slider
+    2300480: Spacer
+    2300482: Spacer 1
+    2300484: Standard Internal Door 20131210LJW
+    2300486: Standard Internal Door 20131210LJW 1
+    2300488: Stile Left
+    2300490: Stile Left 1
+    2300492: Stile Left 2
+    2300494: Stile Right
+    2300496: Stile Right 1
+    2300498: Stile Right 2
+    2300500: Tap Head
+    2300502: Tap Silinder
+    2300504: Vanity Top Assy 1
+    2300506: Vanity#2
+    2300508: Washing_machine
+    3300000: baby hanger
+    3300002: Badkamerkast2000x520x450_Beuken
+    3300004: base
+    3300006: bath tub
+    3300008: Bathroom Vanity and Table
+    3300010: bedroom eva dressing table dresser
+    3300012: Bolt Part
+    3300014: Bolt Part 1
+    3300016: Bolt Part 10
+    3300018: Bolt Part 11
+    3300020: Bolt Part 12
+    3300022: Bolt Part 13
+    3300024: Bolt Part 14
+    3300026: Bolt Part 15
+    3300028: Bolt Part 16
+    3300030: Bolt Part 17
+    3300032: Bolt Part 18
+    3300034: Bolt Part 19
+    3300036: Bolt Part 2
+    3300038: Bolt Part 20
+    3300040: Bolt Part 21
+    3300042: Bolt Part 22
+    3300044: Bolt Part 23
+    3300046: Bolt Part 3
+    3300048: Bolt Part 4
+    3300050: Bolt Part 5
+    3300052: Bolt Part 6
+    3300054: Bolt Part 7
+    3300056: Bolt Part 8
+    3300058: Bolt Part 9
+    3300060: Component#11
+    3300062: Component#11 1
+    3300064: Component#12
+    3300066: Component#15
+    3300068: Component#15 1
+    3300070: Component#15 2
+    3300072: Component#15 3
+    3300074: Component#15 4
+    3300076: Component#21
+    3300078: Component#21 1
+    3300080: Component#21 2
+    3300082: Component#22
+    3300084: Component#23
+    3300086: Component#24
+    3300088: Component#29
+    3300090: Component#30
+    3300092: Component#32
+    3300094: Component#33
+    3300096: cr wall
+    3300098: Door Panel
+    3300100: Door Panel 1
+    3300102: Door Panel 2
+    3300104: Door Panel Front Side Moulding
+    3300106: Door Panel Front Side Moulding 1
+    3300108: Door Panel Front Side Moulding 2
+    3300110: Doorleft
+    3300112: Doorleftunder
+    3300114: Doorright
+    3300116: Doorrightunder
+    3300118: ds
+    3300120: ds 1
+    3300122: ds 2
+    3300124: ds 3
+    3300126: ds 4
+    3300128: ds 5
+    3300130: ds 6
+    3300132: ds 7
+    3300134: ds 8
+    3300136: ds 9
+    3300138: ds#2
+    3300140: ds#2 1
+    3300142: ds#2 2
+    3300144: ds#2 3
+    3300146: ds#2 4
+    3300148: Dust Bin / Trash Can
+    3300150: Front Cover
+    3300152: Front Cover 1
+    3300154: Grohe Shower Set
+    3300156: Group 107
+    3300158: Group 109
+    3300160: Group 11
+    3300162: Group 114
+    3300164: Group 116
+    3300166: Group 121
+    3300168: Group 123
+    3300170: Group 128
+    3300172: Group 130
+    3300174: Group 134
+    3300176: Group 14
+    3300178: Group 143
+    3300180: Group 146
+    3300182: Group 148
+    3300184: Group 17
+    3300186: Group 184
+    3300188: Group 186
+    3300190: Group 188
+    3300192: Group 19
+    3300194: Group 190
+    3300196: Group 194
+    3300198: Group 196
+    3300200: Group 198
+    3300202: Group 200
+    3300204: Group 202
+    3300206: Group 204
+    3300208: Group 206
+    3300210: Group 208
+    3300212: Group 21
+    3300214: Group 210
+    3300216: Group 212
+    3300218: Group 214
+    3300220: Group 216
+    3300222: Group 218
+    3300224: Group 220
+    3300226: Group 222
+    3300228: Group 224
+    3300230: Group 226
+    3300232: Group 228
+    3300234: Group 230
+    3300236: Group 232
+    3300238: Group 234
+    3300240: Group 236
+    3300242: Group 238
+    3300244: Group 240
+    3300246: Group 242
+    3300248: Group 244
+    3300250: Group 246
+    3300252: Group 248
+    3300254: Group 250
+    3300256: Group 255
+    3300258: Group 260
+    3300260: Group 262
+    3300262: Group 269
+    3300264: Group 271
+    3300266: Group 276
+    3300268: Group 278
+    3300270: Group 377
+    3300272: Group 384
+    3300274: Group 4
+    3300276: Group 450
+    3300278: Group 452
+    3300280: Group 455
+    3300282: Group 457
+    3300284: Group 459
+    3300286: Group 463
+    3300288: Group 465
+    3300290: Group 468
+    3300292: Group 48
+    3300294: Group 480
+    3300296: Group 487
+    3300298: Group 498
+    3300300: Group 50
+    3300302: Group 500
+    3300304: Group 503
+    3300306: Group 505
+    3300308: Group 52
+    3300310: Group 533
+    3300312: Group 535
+    3300314: Group 54
+    3300316: Group 56
+    3300318: Group 58
+    3300320: Group 587
+    3300322: Group 592
+    3300324: Group 60
+    3300326: Group 62
+    3300328: Group 7
+    3300330: Group 82
+    3300332: Group 85
+    3300334: Group 88
+    3300336: Group 9
+    3300338: Group 91
+    3300340: Group 94
+    3300342: Group#1
+    3300344: Group#1 1
+    3300346: Group#1 2
+    3300348: Group#169
+    3300350: Group#344
+    3300352: Group#344 1
+    3300354: Group58#1
+    3300356: Group58#1 1
+    3300358: Group58#1 2
+    3300360: handel
+    3300362: handel 1
+    3300364: handel 2
+    3300366: handel 3
+    3300368: handel 4
+    3300370: Handle
+    3300372: Handle 1
+    3300374: Handle 2
+    3300376: Handle 3
+    3300378: Handle Guard With Key Hole
+    3300380: Handle Guard With Key Hole 1
+    3300382: Handle Guard With Key Hole#2
+    3300384: Handle Guard With Key Hole#2 1
+    3300386: hanger
+    3300388: Hanger Clothes Rack
+    3300390: HDW_KNOB#1
+    3300392: HDW_KNOB#1 1
+    3300394: HDW_KNOB#1 2
+    3300396: HDW_KNOB#1 3
+    3300398: HDW_KNOB#1 4
+    3300400: HDW_KNOB#1 5
+    3300402: Head
+    3300404: Head A
+    3300406: Head B
+    3300408: Head C
+    3300410: Head Holder
+    3300412: Knob For Handle
+    3300414: Knob For Handle 1
+    3300416: Knob For Handle 2
+    3300418: Knob For Handle 3
+    3300420: Lade
+    3300422: leg 1
+    3300424: leg 1 1
+    3300426: leg 1 2
+    3300428: leg 1 3
+    3300430: logo#1
+    3300432: Mast.Bed rm
+    3300434: OUTER COVER#1
+    3300436: Rail Bottom
+    3300438: Rail Bottom 1
+    3300440: Rail Bottom 2
+    3300442: Rail Top
+    3300444: Rail Top 1
+    3300446: Rail Top 2
+    3300448: sdssd
+    3300450: sdssd 1
+    3300452: sdssd 2
+    3300454: sdssd 3
+    3300456: sdssd 4
+    3300458: seat
+    3300460: seat 1
+    3300462: seat support
+    3300464: Selang
+    3300466: Shower Mixer
+    3300468: Side Cover
+    3300470: Side Cover 1
+    3300472: Sink Bowl#1
+    3300474: Sink Drain
+    3300476: Slide Bar
+    3300478: Slider
+    3300480: Spacer
+    3300482: Spacer 1
+    3300484: Standard Internal Door 20131210LJW
+    3300486: Standard Internal Door 20131210LJW 1
+    3300488: Stile Left
+    3300490: Stile Left 1
+    3300492: Stile Left 2
+    3300494: Stile Right
+    3300496: Stile Right 1
+    3300498: Stile Right 2
+    3300500: Tap Head
+    3300502: Tap Silinder
+    3300504: Vanity Top Assy 1
+    3300506: Vanity#2
+    3300508: Washing_machine
+    4300000: Mesh Group 4
+    4300002: Mesh Group 7
+    4300004: Mesh Group 9
+    4300006: Mesh Group 11
+    4300008: Mesh seat
+    4300010: Mesh seat support
+    4300012: Mesh base
+    4300014: Mesh leg 1
+    4300016: Mesh bath tub
+    4300018: Mesh Component#12
+    4300020: Mesh Group 48
+    4300022: Mesh Group 50
+    4300024: Mesh Group 52
+    4300026: Mesh Group 54
+    4300028: Mesh Group 56
+    4300030: Mesh Group 58
+    4300032: Mesh Group 60
+    4300034: Mesh Group 62
+    4300036: Mesh Vanity#2
+    4300038: Mesh Vanity Top Assy 1
+    4300040: Mesh Sink Bowl#1
+    4300042: Mesh Sink Drain
+    4300044: Mesh Hanger Clothes Rack
+    4300046: Mesh baby hanger
+    4300048: Mesh hanger
+    4300050: Mesh Group 82
+    4300052: Mesh Group 88
+    4300054: Mesh Group#1
+    4300056: Mesh Group 107
+    4300058: Mesh Group 109
+    4300060: Mesh ds#2
+    4300062: Mesh Group 134
+    4300064: Mesh sdssd
+    4300066: Mesh ds
+    4300068: Mesh Group 143
+    4300070: Mesh Washing_machine
+    4300072: Mesh bedroom eva dressing table dresser
+    4300074: Mesh Group 184
+    4300076: Mesh Group 186
+    4300078: Mesh Group 188
+    4300080: Mesh Group 190
+    4300082: Mesh Bathroom Vanity and Table
+    4300084: Mesh Group 194
+    4300086: Mesh Group 210
+    4300088: Mesh Group 212
+    4300090: Mesh Group 216
+    4300092: Mesh Group 218
+    4300094: Mesh Group 250
+    4300096: Mesh Mast.Bed rm
+    4300098: Mesh Group 255
+    4300100: Mesh cr wall
+    4300102: Mesh Group 260
+    4300104: Mesh Group 262
+    4300106: Mesh Group 269
+    4300108: Mesh Group58#1
+    4300110: Mesh Door Panel Front Side Moulding
+    4300112: Mesh Door Panel
+    4300114: Mesh Stile Left
+    4300116: Mesh Stile Right
+    4300118: Mesh Rail Top
+    4300120: Mesh Rail Bottom
+    4300122: Mesh HDW_KNOB#1
+    4300124: Mesh Standard Internal Door 20131210LJW
+    4300126: Mesh Handle Guard With Key Hole
+    4300128: Mesh Handle
+    4300130: Mesh Knob For Handle
+    4300132: Mesh Handle Guard With Key Hole#2
+    4300134: Mesh Group 377
+    4300136: Mesh Component#11
+    4300138: Mesh Dust Bin / Trash Can
+    4300140: Mesh Component#21
+    4300142: Mesh Badkamerkast2000x520x450_Beuken
+    4300144: Mesh Lade
+    4300146: Mesh Component#15
+    4300148: Mesh Doorrightunder
+    4300150: Mesh Doorright
+    4300152: Mesh Doorleftunder
+    4300154: Mesh Doorleft
+    4300156: Mesh Group#169
+    4300158: Mesh Group 450
+    4300160: Mesh Group 455
+    4300162: Mesh Group 457
+    4300164: Mesh Group 459
+    4300166: Mesh Group 463
+    4300168: Mesh Group 465
+    4300170: Mesh Group 468
+    4300172: Mesh handel
+    4300174: Mesh Group 480
+    4300176: Mesh Grohe Shower Set
+    4300178: Mesh Shower Mixer
+    4300180: Mesh Group 487
+    4300182: Mesh Group#344
+    4300184: Mesh Tap Silinder
+    4300186: Mesh Tap Head
+    4300188: Mesh Group 498
+    4300190: Mesh Group 500
+    4300192: Mesh Group 503
+    4300194: Mesh Group 505
+    4300196: Mesh Bolt Part
+    4300198: Mesh Selang
+    4300200: Mesh Head Holder
+    4300202: Mesh Head
+    4300204: Mesh Head A
+    4300206: Mesh Head C
+    4300208: Mesh Head B
+    4300210: Mesh Slider
+    4300212: Mesh Slide Bar
+    4300214: Mesh Spacer
+    4300216: Mesh Side Cover
+    4300218: Mesh Group 587
+    4300220: Mesh Front Cover
+    4300222: Mesh Component#29
+    4300224: Mesh Component#24
+    4300226: Mesh Component#30
+    4300228: Mesh Component#32
+    4300230: Mesh logo#1
+    4300232: Mesh Component#33
+    4300234: Mesh Component#22
+    4300236: Mesh Component#23
+    4300238: Mesh OUTER COVER#1
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
