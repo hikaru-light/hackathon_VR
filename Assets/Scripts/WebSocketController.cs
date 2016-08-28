@@ -51,7 +51,6 @@ public class WebSocketController : SingletonBehaviour<WebSocketController> {
 		};
 
 		ws.OnMessage += (sender, e) => {
-			Debug.Log ("WebSocket Message Type: " + e.Type + ", Data: " + e.Data);
 			lock(receivedMessageList){
 				receivedMessageList.Add(e.Data);
 			}
