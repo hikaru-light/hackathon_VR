@@ -12,8 +12,15 @@ public class WebSocketController : SingletonBehaviour<WebSocketController> {
 	private List<string> receivedMessageList = new List<string>();
 	private Dictionary<GameObject, Action<string>> callbackList = new Dictionary<GameObject, Action<string>>();
 
-	public override void SingleAwake() {
-		Connect();
+	public bool IsConnected{
+		get{
+			return ws != null && ws.IsAlive;
+		}
+	}
+
+	public void SendMessage(string message) {
+		if(!IsConnected) return;
+		ws.Send(message);
 	}
 
 	public void AddMessageReceiveCallback(GameObject obj, Action<string> callback){
@@ -61,8 +68,10 @@ public class WebSocketController : SingletonBehaviour<WebSocketController> {
 	}
 
 	public void Disconnect () {
-		ws.Close ();
-		ws = null;
+		if (ws != null) {
+			ws.Close ();
+			ws = null;
+		}
 	}
 
 	void OnDestroy () {
