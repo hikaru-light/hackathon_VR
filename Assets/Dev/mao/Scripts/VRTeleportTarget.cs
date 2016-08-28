@@ -19,20 +19,24 @@ public class VRTeleportTarget : MonoBehaviour
     }
 
     [SerializeField]
-    new Renderer renderer;
+    ParticleSystem particle;
+    [SerializeField]
+    Color particleColorOver;
+    [SerializeField]
+    Color particleColorOut;
 
     /// <summary>ターゲット注視</summary>
     public void HandleOver()
     {
-        if (!this.renderer.enabled) { return; }
-        this.renderer.material.color = Color.red;
+        if (!this.particle.gameObject.activeSelf) { return; }
+        this.particle.startColor = this.particleColorOver;
         this.NowGazeType = GazeType.Over;
     }
     /// <summary>ターゲット注視解除</summary>
     public void HandleOut()
     {
-        if (!this.renderer.enabled) { return; }
-        this.renderer.material.color = Color.blue;
+        if (!this.particle.gameObject.activeSelf) { return; }
+        this.particle.startColor = this.particleColorOut;
         this.NowGazeType = GazeType.Out;
     }
 
@@ -43,7 +47,7 @@ public class VRTeleportTarget : MonoBehaviour
     {
         if (col.gameObject.name == "TargetHideTrigger")
         {
-            this.renderer.enabled = false;
+            this.particle.gameObject.SetActive(false);
         }
     }
 
@@ -54,7 +58,7 @@ public class VRTeleportTarget : MonoBehaviour
     {
         if (col.gameObject.name == "TargetHideTrigger")
         {
-            this.renderer.enabled = true;
+            this.particle.gameObject.SetActive(true);
         }
     }
 }
