@@ -27,7 +27,10 @@ wss.on('connection', function (ws) {
   ws.on('message', function (message) {
     console.log('message:', message);
     connections.forEach(function (con, i) {
-      con.send(message);
+      // Broadcast通信にしておく
+      if(con !== ws){
+        con.send(message);
+      }
     });
   });
 });
