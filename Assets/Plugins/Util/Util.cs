@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using System;
+using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -110,6 +112,19 @@ public class Util
 		}
 
 		return prefab;
+	}
+
+	public static string GetUUID()
+	{
+		string uuid = "";
+		string filePath = Application.persistentDataPath + "/uuid.dat";
+		if (File.Exists(filePath)) {
+			uuid = File.ReadAllText(filePath);
+		} else {
+			uuid = Guid.NewGuid().ToString("N");
+			File.WriteAllText(filePath, uuid);
+		}
+		return uuid;
 	}
 }
 
