@@ -23,6 +23,8 @@ public class Creator : MonoBehaviour
             trs.SetParent(this.setParent, false);
             trs.localPosition = child.localPosition;
             trs.localScale = child.localScale;
+            trs.GetChild(0).transform.localPosition = Vector3.zero;
+
             obj.name = child.name;
         }
     }

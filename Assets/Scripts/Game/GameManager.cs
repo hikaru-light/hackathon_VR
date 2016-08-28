@@ -28,6 +28,9 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     SubGroup[] subGroup;
 
+    [SerializeField]
+    Transform canvasShowPoint;
+
     int currentSubGroupIndex;
 
     bool isFading;
@@ -35,6 +38,9 @@ public class GameManager : MonoBehaviour
 
     public void ShowGroup(SubGroupIndex index)
     {
+        this.transform.position = this.canvasShowPoint.position;
+        this.transform.rotation = this.canvasShowPoint.rotation;
+
         this.isFading = false;
         this.currentSubGroupIndex = (int)index;
         this.subGroupCanvas[this.currentSubGroupIndex].alpha = 1f;

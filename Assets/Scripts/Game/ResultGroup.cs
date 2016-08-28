@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class ResultGroup : SubGroup
@@ -15,5 +16,6 @@ public class ResultGroup : SubGroup
     public override void FadeCallback()
     {
         showCallback.Invoke();
+        SceneManager.LoadSceneAsync( "Main" );
     }
 }

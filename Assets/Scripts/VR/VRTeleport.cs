@@ -112,6 +112,15 @@ public class VRTeleport : MonoBehaviour
         // レーザー(Ray)を500m分照射
         if (Physics.Raycast(ray, out hit, this.lazerDistance, ~this.exclusionLayer))
         {
+            if (hit.collider.gameObject.name == "Goal")
+            {
+                this.FadeStart(hit.collider.gameObject.transform.position);
+                this.currentTarget = null;
+                this.preTarget = null;
+                this.LaserRenderer.gameObject.SetActive(false);
+                return;
+            }
+
             this.currentTarget = hit.collider.GetComponent<VRTeleportTarget>();
             if (this.currentTarget != null && this.currentTarget != this.preTarget)
             {
