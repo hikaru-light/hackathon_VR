@@ -26,6 +26,5 @@ public class Timer : MonoBehaviour
     {
         if (!isCounting) { return; }
         countTime += Time.deltaTime;
-        Debug.Log(GetTimeStr());
     }
 }
