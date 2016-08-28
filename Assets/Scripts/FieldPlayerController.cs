@@ -6,6 +6,7 @@ using Newtonsoft.Json;
 public class FieldPlayerController : SingletonBehaviour<FieldPlayerController> {
 	[SerializeField] Prefab rivalPlayerPrefab;
 
+	// 同じものを通信したくないので、直前のものとの差分だけ送るようにしておく
 	Vector3 prevPosition = Vector3.zero;
 
 	public override void SingleAwake() {
