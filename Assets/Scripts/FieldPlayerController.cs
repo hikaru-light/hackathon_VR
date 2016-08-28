@@ -28,7 +28,7 @@ public class FieldPlayerController : SingletonBehaviour<FieldPlayerController> {
 		if (WebSocketController.Instance.IsConnected) {
 			Vector3 pos = Camera.main.transform.position;
 			Quaternion rotate = Camera.main.transform.rotation;
-			if (pos != prevPosition && prevRotate != rotate) {
+			if (pos != prevPosition || prevRotate != rotate) {
 				prevPosition = pos;
 				prevRotate = rotate;
 				Player player = new Player();
