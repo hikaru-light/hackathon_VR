@@ -8,7 +8,7 @@ using WebSocketSharp.Net;
 
 public class WebSocketController : SingletonBehaviour<WebSocketController> {
 	WebSocket ws;
-	public const string ipAddress = "192.168.220.49";
+	public const string ipAddress = "192.168.217.121";
 	public const string port = "3000";
 	private List<string> receivedMessageList = new List<string>();
 	private Dictionary<GameObject, Action<string>> callbackList = new Dictionary<GameObject, Action<string>>();

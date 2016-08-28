@@ -1,11 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.Networking;
 
 using Newtonsoft.Json;
 
 public class FieldPlayerController : SingletonBehaviour<FieldPlayerController> {
 	[SerializeField] Prefab rivalPlayerPrefab;
+
+	private Dictionary<string, RivalPlayer> rivalPlayers = new Dictionary<string, RivalPlayer>();
 
 	// 同じものを通信したくないので、直前のものとの差分だけ送るようにしておく
 	Vector3 prevPosition = Vector3.zero;
@@ -50,6 +53,11 @@ public class FieldPlayerController : SingletonBehaviour<FieldPlayerController> {
 	}
 
 	private void OnMessageReceieved(string json){
-		Debug.Log(json);
+		Player player = JsonConvert.DeserializeObject<Player>(json);
+		if (!rivalPlayers.ContainsKey (player.id)) {
+			rivalPlayers.Add (player.id, rivalPlayerPrefab.InstantiateTo<RivalPlayer> (this.transform));
+		}
+		RivalPlayer rivalPlayer = rivalPlayers[player.id];
+		rivalPlayer.transform.position = new Vector3(player.position.x, player.position.y, player.position.z);
 	}
 }
