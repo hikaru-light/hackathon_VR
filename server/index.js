@@ -14,6 +14,16 @@ var server = http.createServer(app).listen(port, function () {
 var WebSocketServer = require('ws').Server;
 var wss = new WebSocketServer({server:server});
 
+var uuid = require('uuid');
+
+app.get('/user_token', function(req, res) {
+  res.send(uuid.v4());
+});
+
+app.get('/', function(req, res){
+  res.sendFile(__dirname + '/index.html');
+});
+
 var connections = []; 
 wss.on('connection', function (ws) {
   console.log('connect!!');
@@ -33,8 +43,4 @@ wss.on('connection', function (ws) {
       }
     });
   });
-});
-
-app.get('/', function(req, res){
-  res.sendFile(__dirname + '/index.html');
 });
