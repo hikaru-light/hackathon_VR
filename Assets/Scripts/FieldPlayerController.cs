@@ -12,6 +12,7 @@ public class FieldPlayerController : SingletonBehaviour<FieldPlayerController> {
 
 	// 同じものを通信したくないので、直前のものとの差分だけ送るようにしておく
 	Vector3 prevPosition = Vector3.zero;
+	Quaternion prevRotate = Quaternion.identity;
 
 	public override void SingleAwake() {
 		WebSocketController.Instance.Connect();
@@ -26,11 +27,14 @@ public class FieldPlayerController : SingletonBehaviour<FieldPlayerController> {
 	void Update(){
 		if (WebSocketController.Instance.IsConnected) {
 			Vector3 pos = Camera.main.transform.position;
-			if (pos != prevPosition) {
+			Quaternion rotate = Camera.main.transform.rotation;
+			if (pos != prevPosition && prevRotate != rotate) {
 				prevPosition = pos;
+				prevRotate = rotate;
 				Player player = new Player();
 				player.id = Util.GetUUID();
-				player.position = Axis3.Convert (Camera.main.transform.position);
+				player.position = Axis3.Convert(pos);
+				player.rotate = Axis3.Convert(rotate.eulerAngles);
 				string json = JsonConvert.SerializeObject(player);
 				WebSocketController.Instance.SendMessage (json);
 			}
@@ -44,5 +48,6 @@ public class FieldPlayerController : SingletonBehaviour<FieldPlayerController> {
 		}
 		RivalPlayer rivalPlayer = rivalPlayers[player.id];
 		rivalPlayer.transform.position = new Vector3(player.position.x, player.position.y, player.position.z);
+		rivalPlayer.transform.rotation = Quaternion.Euler(new Vector3(player.rotate.x, player.rotate.y, player.rotate.z));
 	}
 }
