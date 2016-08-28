@@ -8,8 +8,8 @@ using WebSocketSharp.Net;
 
 public class WebSocketController : SingletonBehaviour<WebSocketController> {
 	WebSocket ws;
-	public const string ipAddress = "192.168.217.121";
-	public const string port = "3000";
+	public const string ipAddress = "taptappun.cloudapp.net";
+	public const string port = "3001";
 	private List<string> receivedMessageList = new List<string>();
 	private Dictionary<GameObject, Action<string>> callbackList = new Dictionary<GameObject, Action<string>>();
 
